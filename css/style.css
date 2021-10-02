@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+}
+
+header > .weather-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-bottom: 0px;
+}
+
+.clock {
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+
+.login-input {
+  height: 2rem;
+  width: 12rem;
+  border-radius: 0.6rem;
+  border: none;
+  margin-top: 0.6rem;
+}
+
+.todo-input {
+  height: 2rem;
+  width: 12rem;
+  border-radius: 0.6rem;
+  border: none;
+  margin-top: 0.6rem;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
