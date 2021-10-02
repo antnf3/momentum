@@ -32,12 +32,20 @@ header > .weather-div {
 }
 
 main {
-  height: 90vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
+footer {
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+}
 .title {
   font-size: 2.5rem;
   margin-bottom: 1rem;
