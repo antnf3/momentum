@@ -33,13 +33,13 @@ header > .weather-div {
 }
 
 main {
-  height: 80vh;
+  height: 82vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 footer {
-  height: 10rem;
+  height: 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,7 +49,6 @@ footer {
 }
 .title {
   font-size: 2.5rem;
-  margin-bottom: 1rem;
   margin-bottom: 0px;
 }
 
@@ -68,7 +67,7 @@ footer {
 .login-input {
   height: 2rem;
   width: 14rem;
-  margin-top: 0.6rem;
+  /* margin-top: 0.6rem; */
   text-align: center;
   font-size: 1rem;
 }
@@ -76,7 +75,7 @@ footer {
 .todo-input {
   height: 2rem;
   width: 16rem;
-  margin-top: 0.6rem;
+  /* margin-top: 0.6rem; */
   text-align: center;
   font-size: 1.2rem;
   font-weight: 600;
