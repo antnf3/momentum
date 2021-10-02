@@ -23,6 +23,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 90vw;
+  height: 10vh;
 }
 
 header > .weather-div {
@@ -32,13 +33,13 @@ header > .weather-div {
 }
 
 main {
-  height: 85vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 footer {
-  height: 5rem;
+  height: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,21 +58,28 @@ footer {
   margin-bottom: 0px;
 }
 
+.input-common {
+  border: none;
+  border-bottom: 2px solid #fff;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+}
 .login-input {
   height: 2rem;
-  width: 12rem;
-  border-radius: 0.6rem;
-  border: none;
+  width: 14rem;
   margin-top: 0.6rem;
+  text-align: center;
+  font-size: 1rem;
 }
 
 .todo-input {
   height: 2rem;
-  width: 12rem;
-  border-radius: 0.6rem;
-  border: none;
+  width: 16rem;
   margin-top: 0.6rem;
   text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .hidden {
