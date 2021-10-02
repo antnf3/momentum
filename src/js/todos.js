@@ -26,12 +26,16 @@
 
   function paintTodo(newTodoObj) {
     const li = document.createElement("li");
+    const checkBox = document.createElement("input");
     const span = document.createElement("span");
     const button = document.createElement("button");
     li.id = newTodoObj.id;
+    checkBox.type = "checkbox";
     span.innerText = newTodoObj.text;
     button.innerText = "❌";
+    button.classList.add("delete-todo");
     button.addEventListener("click", deleteTodo);
+    li.appendChild(checkBox);
     li.appendChild(span);
     li.appendChild(button);
     todosUl.appendChild(li);
