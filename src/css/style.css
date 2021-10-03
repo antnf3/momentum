@@ -4,7 +4,7 @@ body {
   padding: 0px;
   overflow: hidden;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .container {
@@ -25,12 +25,18 @@ header {
   height: 10vh;
 }
 
-header > .weather-div {
+header > .weather-div,
+.user-info {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-
+.logout {
+  width: 1.6rem;
+  height: 1.6rem;
+  cursor: pointer;
+  padding-left: 4px;
+}
 main {
   height: 78vh;
   width: 100vw;
@@ -102,20 +108,29 @@ footer {
 .todos-ul li {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border: 1px solid #fff;
   border-radius: 0.8rem;
-  margin-bottom: 0.2rem;
-  height: 2.5rem;
+  margin-bottom: 0.6rem;
+  min-height: 2.8rem;
 }
 
-.todos-ul input[type="checkbox"] {
+.checkbox {
   margin-right: 0.8rem;
   width: 1.2rem;
   height: 1.2rem;
+  cursor: pointer;
 }
 
 .todos-ul span {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+}
+.todo-complete {
+  text-decoration: line-through rgb(224, 51, 45);
 }
 
 .delete-todo {
@@ -123,6 +138,7 @@ footer {
   border: none;
   margin-left: 0.4rem;
   margin-right: 0px;
+  cursor: pointer;
 }
 .hidden {
   display: none;
