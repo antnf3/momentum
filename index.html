@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
+    <title>MEMO</title>
   </head>
   <body>
     <div class="container">
@@ -14,10 +14,13 @@
           <span></span>
           <img class="weather-icon" />
         </div>
-        <div class="user-info hidden"></div>
+        <div class="user-info hidden">
+          <span></span>
+          <img src="img/logout.png" class="logout" alt="logout" />
+        </div>
       </header>
       <main>
-        <h1 class="title">ToDo LIST</h1>
+        <h1 class="title">MEMO</h1>
         <h2 class="clock"></h2>
         <!-- login -->
         <form class="login-form hidden">
@@ -34,7 +37,8 @@
             type="text"
             class="input-common todo-input"
             id="todoInput"
-            placeholder="할일을 입력하십시오"
+            autocomplete="off"
+            placeholder="메모를 입력하십시오"
           />
         </form>
         <ul class="todos-ul hidden"></ul>
